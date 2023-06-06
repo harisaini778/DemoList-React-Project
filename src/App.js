@@ -13,9 +13,10 @@ function App() {
     setDisplayList(true);
   };
 
+
   return (
     <div className="container">
-      <DemoList listDisplay={listDisplayHandler} />
+      <DemoList listDisplay={listDisplayHandler}/>
     </div>
   );
 }
