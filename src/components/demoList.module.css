@@ -1,0 +1,27 @@
+.flex-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:5px;
+}
+.flex-item{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.card {
+    border-radius: 30px;
+    border: 2px solid black;
+    width: 50%;
+    background-color: rgb(245, 236, 251);  
+    margin-top: 30px;
+}
+h1{
+   text-align: center; 
+   color: rgba(143, 4, 248, 0.999);
+}
